@@ -7,7 +7,7 @@ fun main(){
     for (i in newStringLine.indices){
         val b = newStringLine.substring(i, i + 1);
         
-        if(i % 10 == 9) println("");
+        if(i % 10 == 9) println(b);
         else print(b);
     }
 }
