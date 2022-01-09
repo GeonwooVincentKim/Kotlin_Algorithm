@@ -34,4 +34,11 @@ fun main(){
     for(index in 0 until (items.size)){
         print("${items[index]} ")
     }
+
+    println("\n\n--------------------\n")
+
+    println("<Items with `Array` and `Array.indices`>")
+    for(index in items.indices){
+        print("${items[index]} ")
+    }
 }
