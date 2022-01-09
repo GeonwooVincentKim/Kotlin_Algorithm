@@ -1,3 +1,6 @@
+import java.util.Scanner;
+
 fun main(){
-    println("Hello World")
+    var sc: Scanner = Scanner(System.`in`);
+    
 }
