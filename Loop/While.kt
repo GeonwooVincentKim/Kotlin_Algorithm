@@ -30,5 +30,8 @@ fun main(){
     
     println("\n\n--------------------\n")
 
-    println("<>")
+    println("<Items with `Array` and `Array.size` and `until`>")
+    for(index in 0 until (items.size)){
+        print("${items[index]} ")
+    }
 }

@@ -26,3 +26,16 @@ for(i in 0..(items.size - 1)){
     print(items[index])
 }
 ```
+
+## Items with Array and Until
+
+- Use `Array`, and Use `Array.size` to find out the `Size of Array`
+- Use `until` instead of using `0..(items.size)`
+
+```kotlin
+val items = listOf("list1", "list2", "list3")
+
+for(i in 0 until (items.size - 1)){
+    print(items[index])
+}
+```
