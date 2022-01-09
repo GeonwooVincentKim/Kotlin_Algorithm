@@ -1,5 +1,3 @@
-import whileFun
-
 fun main(){
-    whileFun()
+    println("Testing")
 }
