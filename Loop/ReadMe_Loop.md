@@ -22,7 +22,7 @@ for (item in items){
 ```kotlin
 val items = listOf("list1", "list2", "list3")
 
-for(i in 0..(items.size - 1)){
+for(index in 0..(items.size - 1)){
     print(items[index])
 }
 ```
@@ -33,9 +33,22 @@ for(i in 0..(items.size - 1)){
 - Use `until` instead of using `0..(items.size)`
 
 ```kotlin
+val index = listOf("list1", "list2", "list3")
+
+for(index in 0 until (items.size - 1)){
+    print(items[index])
+}
+```
+
+## Items with Arraya and Indices of Array
+
+- Use `Array`, and Use `Array.indices` to find out the `Size of Array`
+- `0..(items.size)` or `until (items.size)` has a more codes, but `array.indices` doesn't neet to use `0..(items.size` or `until (items.size)`
+
+```kotlin
 val items = listOf("list1", "list2", "list3")
 
-for(i in 0 until (items.size - 1)){
+for(index in items.indices){
     print(items[index])
 }
 ```
