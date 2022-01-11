@@ -8,7 +8,7 @@ fun main(){
 
     var sum = 0;
 
-    var months = arrayOf(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
+    var months = arrayOf(0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
 
     for(i in 1..12){
         if (i == a){
