@@ -5,7 +5,7 @@ fun main(){
 
     var inputValue = sc.nextInt();
 
-    for (i in 1..inputValue){
+    for (i in inputValue downTo 1){
         for (j in 1..i) {
             print("*")
         }
