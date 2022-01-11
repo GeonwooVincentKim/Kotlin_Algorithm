@@ -21,7 +21,7 @@ fun main(){
 
     var left = sum % 7;
     when(left) {
-        0 -> println("SUM");
+        0 -> println("SUN");
         1 -> println("MON");
         2 -> println("TUE");
         3 -> println("WED");
