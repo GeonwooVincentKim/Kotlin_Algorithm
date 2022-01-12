@@ -17,5 +17,17 @@ fun main(){
         }
 
         print("${(a.toDouble().pow(2)).toInt()}");
+        var sum = a.toDouble().pow(2).toInt() + b.toDouble().pow(2).toInt()
+        print("$sum");
+
+        print("${(c.toDouble().pow(2)).toInt()}");
+        var c2 = c.toDouble().pow(2).toInt()
+        print("$c2")
+
+        if(sum  == c2){
+            println("right");
+        } else {
+            println("wrong");
+        }
     }
 }
