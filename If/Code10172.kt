@@ -1,7 +1,7 @@
-fun main(args: Array<String>) = println(
-    """|\_/|
-|q p|   /}
-( 0 )${"\"\"\""}\
-|"^"`    |
-||_/=\\__|
-""")
+fun main(){
+    println("|\\_/|");
+    println("|q p|   /}");
+    println("( 0 )\"\"\"\\");
+    println("|\"^\"`    |\\");
+    println("||_/=\\\\__|\")");
+}
