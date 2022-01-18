@@ -6,23 +6,15 @@ fun main(){
     var a = sc.nextInt();
     var b = sc.nextInt();
 
-    if(b < 60 && b > 0){
-        b = 75 + b;
-        b = b - 60;   
-    }
+    if(b < 45){
+        a--;
+        b = 60 - (45 - b);
 
-    if(b == 0){
-        b = 75 + b;
-        b = b - 60;
-    }
-
-    if(a == 0){
-        a = 23;
+        if(a < 0){
+            a = 23;
+        }
+        print("$a" + " " + "$b");
     } else {
-        a = a - 1;
+        print("$a" + " " + "${b - 45}")
     }
-
-    print("${a} ")
-    print("${b}")
-    
 }
