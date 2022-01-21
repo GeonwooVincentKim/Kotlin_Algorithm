@@ -8,9 +8,9 @@ fun main(){
         var b = sc.nextInt();
         var c = sc.nextInt();
     
-        var r = 2;
-        while(r != 0) {
-            r = b % c;
+        // var r = 2;
+        while(c != 0) {
+            var r = b % c;
             b = c;
             c = r;
         }
