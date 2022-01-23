@@ -52,3 +52,12 @@ for(index in items.indices){
     print(items[index])
 }
 ```
+
+## Item to get just only single value
+
+- Use `get(Index_Number)` to convert `String` to `Integer`
+
+```kotlin
+var sc = sc.nextLine();
+println(sc.get(0).toInt()):
+```
