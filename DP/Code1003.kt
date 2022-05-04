@@ -14,4 +14,3 @@ fun main() = with(System.`in`.bufferedReader()) {
         println(dp[case].joinToString(" "))
     }
 }
-
